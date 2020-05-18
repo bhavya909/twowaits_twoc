@@ -1,0 +1,7 @@
+a,b = input("Enter two no.s separated by space").split()
+print("Before swaping\n a is {} and b is {}".format(a,b))
+c=a
+a=b
+b=c
+print("After swapping")
+print("a is {} and b is {}".format(a,b))
