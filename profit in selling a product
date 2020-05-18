@@ -1,0 +1,15 @@
+cp=int(input("Enter cp\n"))
+sp=int(input("Enter sp\n"))
+if sp>cp:
+    profit=(sp-cp)/cp*100
+    print(profit)
+   
+
+else:
+    print("No profit at all") 
+
+print(profit)   
+print("if profit is increased by 5 %")
+p=.05*profit+profit
+nsp=p*cp/100+cp
+print("new sp",nsp)
